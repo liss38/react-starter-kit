@@ -1,5 +1,5 @@
 import createMenu from './menu';
 
-const menu = createMenu(['Home', 'Skills', 'Projects', 'Socials'], 'main-nav');
+const menu = createMenu(['Index', 'Skills&Projects', 'Contacts'], 'main-nav');
 
 document.body.appendChild(menu);
