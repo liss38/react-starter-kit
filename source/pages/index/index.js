@@ -1,4 +1,6 @@
 import './index.scss';
+import 'normalize.css';
+
 
 import createMenu from '../../components/menu/menu';
 const menu = createMenu(['Главная', 'Блог'], 'menu');
