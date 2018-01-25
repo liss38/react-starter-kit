@@ -9,6 +9,7 @@ const css = require('./webpack/css');
 const extractCSS = require('./webpack/css.extract');
 const uglifyJS = require('./webpack/js.uglify');
 const images = require('./webpack/images');
+const minifyCSS = require('./webpack/css.minify');
 
 const PATHS = {
 	build: path.join(__dirname, 'build'),
@@ -57,6 +58,7 @@ module.exports = function (env) {
 				common,
 				extractCSS(),
 				uglifyJS(),
+				minifyCSS(),
 			]);
 	}
 	if(env === 'development') {
