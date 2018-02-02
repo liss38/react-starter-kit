@@ -1,21 +1,13 @@
-var path = require('path')
+var path = require('path');
 
 module.exports = {
-    devtool: 'source-map',
+    // devtool: 'source-map',
     entry: [
         './src/index.js'
     ],
     output: {
-        path: path.join(__dirname, 'build'),
+        path: path.join(__dirname, 'build/js'),
         filename: 'bundle.js',
-        publicPath: '/static/'
-    },
-    devServer: {
-        proxy: [{
-            path: '/api/',
-            target: 'http://localhost:3001'
-        }],
-        historyApiFallback: true
     },
     module: {
         rules: [

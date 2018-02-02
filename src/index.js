@@ -1,5 +1,11 @@
 import React from 'react'
 import {render} from 'react-dom'
-import App from './components/App'
+// import App from './components/App'
 
-render(<App/>, document.getElementById('root'))
+function App() {
+	return (
+		<h1>NewsApp</h1>
+	);
+}
+// 
+render(<App />, document.getElementById('newsapp'))
