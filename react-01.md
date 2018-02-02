@@ -48,7 +48,7 @@
 
 говорит про базовые настройки вебпака в файле webpack.config.js
 
-говорит про WebpackDevServer, зачем нужен, про режим --hot-inline
+говорит про WebpackDevServer, зачем нужен, про режимы --hot , --inline
 
 
 
